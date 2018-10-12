@@ -19,7 +19,7 @@ if(isset($_POST['code'])){
   $UID = uniqid();
 
   // Generate Hashed UID
-  $hash = openssl_encrypt($UID, 'AES-128-CBC', $code);
+  $hash = openssl_encrypt($UID, 'AES-128-ECB', $code);
 
   // Insert UID into DB
 

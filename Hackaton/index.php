@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Elections for the federal Chamber of Representatives</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
